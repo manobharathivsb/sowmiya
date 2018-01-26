@@ -2,7 +2,7 @@
 
 int main(void)
 {
-	int a[50],i,temp;
+	int a[50],i,temp,n,j;
 	scanf("%d",&n);
 	for(i=0;1<=3;i++)
 	{
@@ -16,7 +16,7 @@ int main(void)
 		a[i]=a[j];
 		a[j]=temp;
 	}
-		printf("%d",a(0));
-}
+		printf("%d",a[0]);
+
 	return 0;
 }
