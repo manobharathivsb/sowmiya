@@ -10,11 +10,11 @@ int main(void)
 	i==strcmp(a,b);
 	if(i==0)
 	{
-		printf("it is a palindrome");
+		printf("yes");
 	}
-else
-{
- printf("it is not a palindrome");
-}
+		else
+		{
+			printf("no");
+		}
 	return 0;
 }
