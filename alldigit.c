@@ -2,12 +2,13 @@
 
 int main(void) 
 {
-	int n,count=0,sum;
+	int n,sum=0;
 	scanf("%d",&n);
 	while(n!=0)
 	{
+		a=n%10;
+		sum=sum+a;
 		n=n/10;
-		sum=sum+n;
 	}
 	printf("%d",sum);
 	return 0;
