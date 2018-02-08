@@ -2,14 +2,14 @@
 
 int main(void)
 {
-	int a,b,t=0;
+	int x,y,t=0;
 	printf("enter the number\n");
-	scanf("%d\t%d",&a,&b);
+	scanf("%d\t%d",&x,&y);
 {
-	t=a;
-	a=b;
-	b=t;
-printf("%d\t%d",a,b);
+	t=x;
+	x=y;
+	y=t;
+printf("%d\t%d",x,y);
 }
 	return 0;
 }
