@@ -2,7 +2,7 @@
 
 int main(void)
 {
-	int a[50],i,temp,n,j;
+	int a[50],i,t,n,j;
 	scanf("%d",&n);
 	for(i=0;1<=3;i++)
 	{
@@ -12,9 +12,9 @@ int main(void)
 	for(j=0;j<=n;j++)
 	if(a[i]>a[j])
 	{
-		temp=a[i];
+		t=a[i];
 		a[i]=a[j];
-		a[j]=temp;
+		a[j]=t;
 	}
 		printf("%d",a[0]);
 
