@@ -2,7 +2,6 @@
 int main(void)
 {
 int minutes, hours;
-printf("enter the minutes");
 scanf("%d",&minutes);
 {
 hours= minutes/60;
