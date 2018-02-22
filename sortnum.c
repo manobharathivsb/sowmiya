@@ -1,8 +1,8 @@
 #include<stdio.h>
 int main()
 {
-int a[10],i,j,n,temp;
-scanf("%d",&a);
+int a[10],i,j,b,temp;
+scanf("%d",&b);
 for(i=0;i<b;i++)
 scanf("%d",&a[i]);
 for(i=0;i<b;i++)
@@ -18,7 +18,7 @@ a[j]=temp;
 }
 }
 printf("The sorted elements are:\n");
-for(i=0;i<n;i++)
+for(i=0;i<b;i++)
 {
 printf("%d\n",a[i]);
 }
