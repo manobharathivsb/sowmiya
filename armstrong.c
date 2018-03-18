@@ -1,16 +1,16 @@
 #include <stdio.h>
 int main(void) 
 {
-	int n,s=0,a,b,c;
+	int n,s=0,a,b,r;
 	scanf("%d",&n);
 	while(n>0)
 	{
-		n=n%10;
-		a=n*n*n;
-		b=a+s;
-		c=n/10;
+		r=n%10;
+		a=r*r*r;
+		s=s+a;
+		n=n/10;
 	}
-	if(a==b)
+	if(n==b)
 	{
 		printf("it is a armstrong number");
 	}
